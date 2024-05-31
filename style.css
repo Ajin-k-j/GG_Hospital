@@ -89,18 +89,16 @@ body {
 }
 /* Dropdown styles */
 .select-nav {
-  margin-left: -30px;
   border: none;
   width: 98px;
+  cursor: pointer;
 }
-.nav-active{
+.nav-active {
   color: brown;
 }
 .logo img {
   height: 50px;
 }
-
-
 
 /* banner css start here */
 .banner {
@@ -225,7 +223,6 @@ body {
 
 /* department grid design */
 
-
 .dept-item img {
   margin-bottom: -4px;
   width: 100%;
@@ -247,30 +244,26 @@ body {
   justify-content: space-between;
   gap: 20px;
 }
-.why{
-  background-color: #E8F9F6;
+.why {
+  background-color: #e8f9f6;
   margin: 50px 50px;
   display: flex;
   align-items: center;
-
 }
 
-.why1{
+.why1 {
   width: 500px;
-  
 }
-.why2{
+.why2 {
   height: 450px;
   margin-left: -490px;
   margin-top: -450px;
   margin-bottom: -3.5px;
-  
-  
 }
-.why-content{
+.why-content {
   padding-left: 50px;
 }
-.why-content ul{
+.why-content ul {
   list-style: none;
   padding: 0;
   display: flex;
@@ -280,57 +273,55 @@ body {
   font-weight: 500;
   line-height: 28.48px;
 }
-.why-content img{
+.why-content img {
   height: 18px;
 }
-.why-content li{
+.why-content li {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.specialist{
+.specialist {
   margin: 50px;
   padding-top: 50px;
- 
 }
-.specialist-text{
+.specialist-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
 }
-.specialist-text p{
+.specialist-text p {
   margin-top: -10px;
   font-size: 12px;
 }
-.specialist-card-list{
+.specialist-card-list {
   display: flex;
   justify-content: space-between;
-  
 }
-.specialist-card{
+.specialist-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.specialist-card img{
+.specialist-card img {
   width: 250px;
 }
-.specialist-card h2{
+.specialist-card h2 {
   font-size: 18px;
   margin-bottom: -5px;
 }
-.specialist-card p{
+.specialist-card p {
   font-size: 11px;
 }
-.specialist-card-list{
+.specialist-card-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
 }
-.btn-specilaist{
+.btn-specilaist {
   color: white;
   background-color: #17c1a3;
   border: none;
@@ -338,21 +329,20 @@ body {
   border-radius: 5px;
   font-size: 12px;
   cursor: pointer;
-  
 }
-.btn-spec{
+.btn-spec {
   display: flex;
   justify-content: center;
-  padding:25px;
+  padding: 25px;
 }
-.facilities{
+.facilities {
   margin-left: 60px;
   margin-right: 60px;
   display: flex;
   flex-direction: column;
   margin-bottom: -15px;
 }
-.facilities-title{
+.facilities-title {
   display: flex;
   justify-content: right;
   gap: 395px;
@@ -383,7 +373,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
 }
-.intrested-item{
+.intrested-item {
   display: flex;
   flex-direction: column;
   width: 350px;
@@ -393,7 +383,7 @@ body {
   width: 350px;
   height: 180px;
 }
-.interested{
+.interested {
   margin: 60px;
   margin-bottom: -195px;
 }
@@ -405,37 +395,35 @@ body {
 .interested h4 {
   font-size: 18px;
 }
-.interested-row p{
+.interested-row p {
   margin-top: -15px;
   font-size: 10px;
   margin-bottom: -18px;
   line-height: 18px;
 }
-.interested-link{
+.interested-link {
   margin-left: 85px;
   font-size: 5px;
   color: #17c1a3;
   cursor: pointer;
 }
 
-
-
-.sub-div{
-  background-color: #EAF2FF;
+.sub-div {
+  background-color: #eaf2ff;
   width: 100%;
   height: 510px;
 }
-.subscribe{
+.subscribe {
   padding: 60px;
 }
-.sub-card{
+.sub-card {
   background-color: white;
   margin-top: 220px;
   height: 170px;
   border-radius: 5px;
   margin-bottom: -184px;
 }
-.sub-card img{
+.sub-card img {
   height: 170px;
 }
 .sub-row-button {
@@ -468,113 +456,114 @@ body {
   cursor: pointer;
   height: 30px;
 }
-.sub-row{
+.sub-row {
   padding: 60px;
   display: flex;
   justify-content: space-between;
   gap: 340px;
 }
-.sub-row-txt{
+.sub-row-txt {
   padding-left: 10px;
   line-height: 23px;
   font-size: 15px;
 }
-.footer{
+
+/* footer style begins */
+.footer {
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 70px;
 }
-.footer-container{
+.footer-container {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
 }
-.footer-logo{
+.footer-logo {
   width: 300px;
 }
-.footer-logo img{
+.footer-logo img {
   width: 200px;
 }
-.footer-logo p{
+.footer-logo p {
   font-size: 10px;
   width: 270px;
   line-height: 18px;
 }
-.about{
+.about {
   display: flex;
 }
-.legal{
+.legal {
   display: flex;
 }
-.about-sec{
+.about-sec {
   margin-left: 140px;
 }
-.about{
+.about {
   margin-left: -40px;
   font-size: 12px;
 }
-.about ul{
+.about ul {
   list-style-type: none;
 }
-.about li{
+.about li {
   padding-bottom: 20px;
   cursor: pointer;
 }
-.legal-sec{
+.legal-sec {
   margin-left: 110px;
 }
-.legal{
+.legal {
   margin-left: -40px;
   font-size: 12px;
 }
-.legal ul{
+.legal ul {
   list-style-type: none;
 }
-.legal li{
+.legal li {
   padding-bottom: 20px;
   cursor: pointer;
 }
-.footer-container2{
+.footer-container2 {
   display: flex;
   justify-content: space-between;
 }
-.footer-home{
+.footer-home {
   display: flex;
 }
-.footer-call{
+.footer-call {
   display: flex;
 }
-.footer-mail{
+.footer-mail {
   display: flex;
 }
-.footer-social{
+.footer-social {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
 }
-.footer-social h5{
+.footer-social h5 {
   margin-bottom: -10px;
   margin-left: -3px;
 }
-.footer-container2 img{
+.footer-container2 img {
   padding-top: 20px;
   height: 15px;
   padding-right: 10px;
 }
-.footer-container2 p{
+.footer-container2 p {
   font-size: 10px;
   line-height: 18px;
   margin-top: 16px;
 }
-.social-icon img{
+.social-icon img {
   height: 18px;
   cursor: pointer;
 }
-.footer-copy{
+.footer-copy {
   display: flex;
   justify-content: center;
 }
-.footer-copy p{
+.footer-copy p {
   font-size: 10px;
   padding: 10px;
   margin-top: 20px;
