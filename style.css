@@ -517,6 +517,7 @@ body {
 }
 .about li{
   padding-bottom: 20px;
+  cursor: pointer;
 }
 .legal-sec{
   margin-left: 110px;
@@ -530,6 +531,7 @@ body {
 }
 .legal li{
   padding-bottom: 20px;
+  cursor: pointer;
 }
 .footer-container2{
   display: flex;
