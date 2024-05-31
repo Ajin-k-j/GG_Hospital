@@ -1,0 +1,489 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* top section css start */
+.top {
+  /* Full width */
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 1px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.top h5 {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 30.8px;
+}
+.follow-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.follow-us img {
+  height: 14px;
+}
+.contact-top {
+  display: flex;
+  gap: 18px;
+}
+.contact-top h6 {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 30.8px;
+}
+.phone-top img {
+  width: 10px;
+  height: 10px;
+}
+.phone-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.mail-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.mail-top img {
+  width: 10px;
+  height: 10px;
+}
+
+/* nav css start */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 28.48px;
+}
+.nav a {
+  text-decoration: none;
+  color: #333;
+}
+.logo img {
+  height: 50px;
+}
+
+/* Dropdown styles */
+.dropdown .dropbtn {
+  cursor: pointer;
+  position: relative;
+}
+/* Dropdown styles */
+.dropdown-content {
+  display: none;
+}
+
+/* banner css start here */
+.banner {
+  background-image: url("assets/images/Header.png");
+  background-size: cover; /* Ensures the background image covers the entire div */
+  background-position: center; /* Centers the background image */
+  height: 90vh;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-content {
+  padding-left: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 100px;
+}
+
+.banner h1 {
+  font-size: 44px;
+  margin: 0;
+}
+
+.banner p {
+  font-size: 15px;
+  margin: 10px 0;
+  line-height: 28px;
+}
+
+.button {
+  margin-top: 5px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+}
+.btn {
+  background-color: #17c1a3;
+  color: white;
+  font-size: 12px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-right: 30px;
+}
+.btn-secondary {
+  color: black;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin-top: -100px;
+}
+.appointment-form {
+  background-color: white;
+  padding-left: 30px;
+  width: 950px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.appointment-form h4 {
+  margin-top: 20px;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.appointment-form form {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 10px;
+}
+
+.appointment-form input,
+.appointment-form select,
+.appointment-form button {
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.select {
+  color: #7a7979;
+}
+
+.appointment-form button {
+  background-color: #17c1a3;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+/* section our departments */
+
+.dept {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.dept-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dept-title h4 {
+  font-size: 18px;
+}
+.dept-title img {
+  height: 10px;
+  width: 70px;
+}
+
+/* department grid design */
+
+
+.dept-item img {
+  margin-bottom: -4px;
+  width: 100%;
+  height: 60%;
+}
+.dept-item p {
+  margin-top: -10px;
+  font-size: 12px;
+  margin-bottom: 15px;
+  padding-right: 80px;
+}
+.dept-item a {
+  font-size: 12px;
+  color: #17c1a3;
+}
+.dept-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  gap: 20px;
+}
+.why{
+  background-color: #E8F9F6;
+  margin: 50px 50px;
+  display: flex;
+  align-items: center;
+
+}
+
+.why1{
+  width: 500px;
+  
+}
+.why2{
+  height: 450px;
+  margin-left: -490px;
+  margin-top: -450px;
+  margin-bottom: -3.5px;
+  
+  
+}
+.why-content{
+  padding-left: 50px;
+}
+.why-content ul{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 28.48px;
+}
+.why-content img{
+  height: 18px;
+}
+.why-content li{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.specialist{
+  margin: 50px;
+  padding-top: 60px;
+ 
+}
+.specialist-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.specialist-card-list{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.specialist-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.specialist-card img{
+  width: 250px;
+}
+.specialist-card h2{
+  font-size: 18px;
+  margin-bottom: -5px;
+}
+.specialist-card p{
+  font-size: 11px;
+}
+.specialist-card-list{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.btn-specilaist{
+  color: white;
+  background-color: #17c1a3;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 5px;
+  font-size: 12px;
+  
+}
+.btn-spec{
+  display: flex;
+  justify-content: center;
+  padding:25px;
+}
+.facilities{
+  margin-left: 60px;
+  margin-right: 60px;
+  display: flex;
+  flex-direction: column;
+}
+.facilities-title{
+  display: flex;
+  justify-content: right;
+  gap: 395px;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.facilities-title h4 {
+  font-size: 18px;
+}
+.facilities-title img {
+  height: 10px;
+  width: 70px;
+}
+.facilities-item img {
+  margin-bottom: -4px;
+  width: 100%;
+  height: 80%;
+}
+
+.facilities-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  gap: 20px;
+}
+.intrested-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.intrested-item{
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+.intrested-item img {
+  margin-bottom: -4px;
+  width: 350px;
+  height: 180px;
+}
+.interested{
+  margin: 60px;
+  margin-bottom: -195px;
+}
+
+.interested a {
+  font-size: 12px;
+  color: #17c1a3;
+}
+.interested h4 {
+  font-size: 18px;
+}
+.interested-row p{
+  margin-top: -15px;
+  font-size: 10px;
+  margin-bottom: 4px;
+}
+.interested-link{
+  margin-left: 100px;
+  font-size: 5px;
+  color: #17c1a3;
+}
+
+
+
+.sub-div{
+  background-color: #EAF2FF;
+  width: 100%;
+  height: 510px;
+}
+.subscribe{
+  padding: 60px;
+}
+.sub-card{
+  background-color: white;
+  margin-top: 220px;
+  height: 170px;
+  border-radius: 5px;
+  margin-bottom: -184px;
+}
+.sub-card img{
+  height: 170px;
+}
+.sub-row-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.sub-row-button input {
+  border: none;
+  width: 300px;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.sub-row-button button {
+  padding: 15px 30px;
+  background-color: #17c1a3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.sub-row{
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  gap: 340px;
+}
+.sub-row-txt{
+  padding-left: 10px;
+  line-height: 23px;
+  font-size: 15px;
+}
+.footer{
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 70px;
+}
+.footer-container{
+  display: flex;
+  justify-content:space-between;
+}
+.footer-logo{
+  width: 300px;
+}
+.footer-logo img{
+  width: 200px;
+}
+.footer-logo p{
+  font-size: 12px;
+}
+.about{
+  display: flex;
+}
+.legal{
+  display: flex;
+}
